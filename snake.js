@@ -101,16 +101,16 @@ Snake.prototype.update = function() {
   var y = this.snake[0].y;
   switch(this.direction) {
     case 'right':
-      x++;
+      //x++;
       break;
     case 'left':
-      x--;
+    //  x--;
       break;
     case 'up':
-      y--;
+    //  y--;
       break;
     case 'down':
-      y++;
+    //  y++;
       break;
   }
   // If we move off-board, game is over
